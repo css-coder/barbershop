@@ -10,7 +10,6 @@ gulp.task('browser-sync', function() {
 	});
 });
 
-
 // Наблюдение за файлами
 gulp.task('watch', ['browser-sync'], function() {
 	gulp.watch('*.html', browserSync.reload);
